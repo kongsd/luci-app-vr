@@ -113,11 +113,11 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_udp2raw-tunnel
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_GoQuiet-client
 	bool "Include GoQuiet-client"
-	default y
+	default n
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_GoQuiet-server
 	bool "Include GoQuiet-server"
-	default y
+	default n
 
 config PACKAGE_$(PKG_NAME)_INCLUDE_v2ray-plugin
 	bool "Include v2ray-plugin"
